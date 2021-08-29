@@ -1,5 +1,4 @@
 /* Start Global */
-/* Developer name: Mohamed Mujahid */
 :root {
     --main-color: #7510f7;
     scroll-behavior: smooth;
@@ -16,7 +15,6 @@
     max-width: 1200px;
     min-width: 250px;
     width: 98%;
-    overflow-x: hidden;
     margin: 0 auto;
 }
 
@@ -185,9 +183,8 @@ header .content p {
 header .content img {
     width: 250px;
 }
-
 header .content img:last-of-type {
-    width: auto;
+    width: 100%;
     margin-top: 30px;
 }
 
